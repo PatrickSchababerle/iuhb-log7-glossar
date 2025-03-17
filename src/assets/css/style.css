@@ -1,0 +1,501 @@
+/* Grundlegende Formatierung für alle Seiten */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f7fa;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+/* Header-Bereich */
+header {
+    background-color: #005b96;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation und Breadcrumbs */
+.breadcrumb {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e9f0f7;
+    border-radius: 5px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #005b96;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.alphabet-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.alphabet-index a {
+    display: block;
+    padding: 5px 10px;
+    margin: 3px;
+    text-decoration: none;
+    color: #005b96;
+    background-color: #e9f0f7;
+    border-radius: 3px;
+}
+
+.alphabet-index a:hover {
+    background-color: #005b96;
+    color: white;
+}
+
+/* Suchfunktion */
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#searchResults {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: none;
+}
+
+#searchResults.active {
+    display: block;
+}
+
+#searchResults ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#searchResults li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#searchResults a {
+    text-decoration: none;
+    color: #005b96;
+    font-weight: bold;
+}
+
+.no-results {
+    color: #c0392b;
+    font-style: italic;
+}
+
+/* Inhaltsbereiche und Kategorien */
+.glossary-categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.category {
+    background-color: #e9f0f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 30%;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category h3 {
+    color: #005b96;
+    margin-top: 0;
+    border-bottom: 2px solid #005b96;
+    padding-bottom: 5px;
+}
+
+.term-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.term-list li {
+    margin-bottom: 8px;
+}
+
+.term-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+.term-list a:hover {
+    color: #005b96;
+    text-decoration: underline;
+}
+
+.featured-term {
+    background-color: #f0f8ff;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 5px solid #005b96;
+}
+
+/* Detailseiten für Glossarbegriffe */
+.term-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.term-header {
+    border-bottom: 2px solid #005b96;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.term-info {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.term-category {
+    background-color: #e9f0f7;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: #005b96;
+}
+
+.term-definition {
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.term-section {
+    margin-bottom: 20px;
+}
+
+.term-section h3 {
+    color: #005b96;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Diagramme und visuelle Elemente */
+.scm-process-diagram,
+.cloud-diagram,
+.api-diagram,
+.journey-map {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Boxen für spezielle Inhalte */
+.related-terms {
+    background-color: #f5f7fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.related-terms h3 {
+    margin-top: 0;
+    color: #005b96;
+}
+
+.related-terms ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.related-terms li {
+    margin-bottom: 10px;
+}
+
+.related-terms a {
+    text-decoration: none;
+    color: #005b96;
+}
+
+.related-terms a:hover {
+    text-decoration: underline;
+}
+
+.external-resources {
+    margin-top: 30px;
+}
+
+.external-resources h3 {
+    color: #005b96;
+}
+
+.security-tips,
+.case-study,
+.logistics-application {
+    background-color: #fff8e1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border-left: 5px solid #ffc107;
+}
+
+.implementation-steps {
+    background-color: #f5f7fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.implementation-steps ol {
+    padding-left: 20px;
+}
+
+.implementation-steps li {
+    margin-bottom: 10px;
+}
+
+.benefits-section {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border-left: 5px solid #007bff;
+}
+
+.metrics-section {
+    background-color: #e6f7e6;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border-left: 5px solid #4caf50;
+}
+
+.use-cases {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Vor-/Nachteile Abschnitte */
+.pros-cons,
+.advantages-disadvantages {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.pros,
+.advantages {
+    flex-basis: 48%;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #e6f7e6;
+    border-left: 5px solid #4caf50;
+}
+
+.cons,
+.disadvantages {
+    flex-basis: 48%;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #ffebee;
+    border-left: 5px solid #f44336;
+}
+
+.pros h4,
+.cons h4,
+.advantages h4,
+.disadvantages h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Servicemodelle und ähnliche strukturierte Inhalte */
+.cloud-services,
+.journey-stages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.service-model,
+.stage {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-model h4,
+.stage h4 {
+    margin-top: 0;
+    color: #005b96;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.service-model.iaas {
+    background-color: #e8f4fa;
+}
+
+.service-model.paas {
+    background-color: #e6f3ff;
+}
+
+.service-model.saas {
+    background-color: #e5f2ff;
+}
+
+.stage {
+    flex-basis: 18%;
+    min-width: 150px;
+    text-align: center;
+    background-color: #f5f7fa;
+}
+
+/* Tabellen */
+.comparison-table,
+.api-types-table,
+.touchpoints-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.comparison-table, .comparison-table th, .comparison-table td,
+.api-types-table, .api-types-table th, .api-types-table td,
+.touchpoints-table, .touchpoints-table th, .touchpoints-table td {
+    border: 1px solid #ddd;
+}
+
+.comparison-table th,
+.api-types-table th,
+.touchpoints-table th {
+    background-color: #e9f0f7;
+    padding: 12px;
+    text-align: left;
+}
+
+.comparison-table td,
+.api-types-table td,
+.touchpoints-table td {
+    padding: 10px;
+}
+
+.comparison-table tr:nth-child(even),
+.api-types-table tr:nth-child(even),
+.touchpoints-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Code-Beispiele */
+.api-example {
+    background-color: #f5f5f5;
+    border-left: 5px solid #005b96;
+    padding: 15px;
+    margin: 20px 0;
+    font-family: "Courier New", monospace;
+    overflow-x: auto;
+}
+
+/* Navigation Elemente */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #005b96;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    #searchInput {
+        width: 90%;
+    }
+
+    .category,
+    .service-model,
+    .stage,
+    .pros,
+    .cons,
+    .advantages,
+    .disadvantages {
+        flex-basis: 100%;
+    }
+
+    .pros-cons,
+    .advantages-disadvantages {
+        flex-direction: column;
+    }
+}

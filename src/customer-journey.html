@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Journey - Log7-Consult GmbH Glossar</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Log7-Consult GmbH - Online-Glossar</h1>
+        </header>
+
+        <div class="breadcrumb">
+            <a href="index.html">Startseite</a> &gt; <a href="#">Marketing</a> &gt; Customer Journey
+        </div>
+
+        <div class="term-content">
+            <div class="term-header">
+                <h2>Customer Journey</h2>
+                <div class="term-info">
+                    <span class="term-category">Kategorie: Marketing</span>
+                    <span>Zuletzt aktualisiert: 13. März 2025</span>
+                </div>
+            </div>
+
+            <div class="term-definition">
+                <h3>Definition</h3>
+                <p>Die Customer Journey (deutsch: Kundenreise) beschreibt die Gesamtheit aller Erfahrungen, die ein Kunde im Verlauf seiner Interaktionen mit einem Unternehmen, einer Marke oder einem Produkt macht. Sie umfasst alle Berührungspunkte (Touchpoints) und Phasen, die ein Kunde von der ersten Wahrnehmung über den Kauf bis hin zur langfristigen Bindung durchläuft. Das Konzept dient als ganzheitlicher Ansatz, um Kundenerlebnisse zu verstehen, zu analysieren und zu optimieren.</p>
+            </div>
+
+            <div class="term-section">
+                <h3>Phasen der Customer Journey</h3>
+                
+                <svg class="journey-map" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Hintergrund -->
+                    <rect x="0" y="0" width="800" height="200" fill="#f5f7fa"/>
+                    
+                    <!-- Pfeilverlauf -->
+                    <path d="M 50 100 L 750 100" stroke="#ddd" stroke-width="5" fill="none"/>
+                    
+                    <!-- Phasen-Kreise -->
+                    <circle cx="100" cy="100" r="25" fill="#e9f0f7" stroke="#005b96" stroke-width="2"/>
+                    <circle cx="250" cy="100" r="25" fill="#e9f0f7" stroke="#005b96" stroke-width="2"/>
+                    <circle cx="400" cy="100" r="25" fill="#e9f0f7" stroke="#005b96" stroke-width="2"/>
+                    <circle cx="550" cy="100" r="25" fill="#e9f0f7" stroke="#005b96" stroke-width="2"/>
+                    <circle cx="700" cy="100" r="25" fill="#e9f0f7" stroke="#005b96" stroke-width="2"/>
+                    
+                    <!-- Phasenbeschriftungen -->
+                    <text x="100" y="105" fill="#005b96" text-anchor="middle" font-weight="bold">1</text>
+                    <text x="250" y="105" fill="#005b96" text-anchor="middle" font-weight="bold">2</text>
+                    <text x="400" y="105" fill="#005b96" text-anchor="middle" font-weight="bold">3</text>
+                    <text x="550" y="105" fill="#005b96" text-anchor="middle" font-weight="bold">4</text>
+                    <text x="700" y="105" fill="#005b96" text-anchor="middle" font-weight="bold">5</text>
+                    
+                    <text x="100" y="150" fill="#333" text-anchor="middle" font-size="12">Awareness</text>
+                    <text x="250" y="150" fill="#333" text-anchor="middle" font-size="12">Consideration</text>
+                    <text x="400" y="150" fill="#333" text-anchor="middle" font-size="12">Purchase</text>
+                    <text x="550" y="150" fill="#333" text-anchor="middle" font-size="12">Service</text>
+                    <text x="700" y="150" fill="#333" text-anchor="middle" font-size="12">Loyalty</text>
+                    
+                    <!-- Deutsche Beschriftungen -->
+                    <text x="100" y="170" fill="#333" text-anchor="middle" font-size="10">Bewusstsein</text>
+                    <text x="250" y="170" fill="#333" text-anchor="middle" font-size="10">Abwägung</text>
+                    <text x="400" y="170" fill="#333" text-anchor="middle" font-size="10">Kauf</text>
+                    <text x="550" y="170" fill="#333" text-anchor="middle" font-size="10">Nutzung</text>
+                    <text x="700" y="170" fill="#333" text-anchor="middle" font-size="10">Loyalität</text>
+                    
+                    <!-- Pfeile zwischen den Phasen -->
+                    <path d="M 130 100 L 220 100" stroke="#005b96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+                    <path d="M 280 100 L 370 100" stroke="#005b96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+                    <path d="M 430 100 L 520 100" stroke="#005b96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+                    <path d="M 580 100 L 670 100" stroke="#005b96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+                    
+                    <!-- Titel -->
+                    <text x="400" y="40" fill="#005b96" text-anchor="middle" font-size="16" font-weight="bold">Customer Journey Map</text>
+                    
+                    <!-- Pfeilspitzen-Definition -->
+                    <defs>
+                        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                            <path d="M0,0 L0,6 L9,3 z" fill="#005b96"/>
+                        </marker>
+                    </defs>
+                </svg>
+                
+                <div class="journey-stages">
+                    <div class="stage">
+                        <h4>Awareness</h4>
+                        <p>Der Kunde erkennt ein Problem oder Bedürfnis und wird auf mögliche Lösungen aufmerksam.</p>
+                    </div>
+                    
+                    <div class="stage">
+                        <h4>Consideration</h4>
+                        <p>Der Kunde recherchiert und vergleicht verschiedene Optionen zur Lösung seines Problems.</p>
+                    </div>
+                    
+                    <div class="stage">
+                        <h4>Purchase</h4>
+                        <p>Der Kunde trifft eine Kaufentscheidung und führt die Transaktion durch.</p>
+                    </div>
+                    
+                    <div class="stage">
+                        <h4>Service</h4>
+                        <p>Der Kunde nutzt das Produkt/die Dienstleistung und nimmt ggf. Support in Anspruch.</p>
+                    </div>
+                    
+                    <div class="stage">
+                        <h4>Loyalty</h4>
+                        <p>Der Kunde entwickelt Treue, kauft wieder und empfiehlt das Unternehmen weiter.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="term-section">
+                <h3>Touchpoints in der Customer Journey</h3>
+                <p>Touchpoints sind alle Berührungspunkte, an denen ein Kunde mit einem Unternehmen oder einer Marke in Kontakt kommt. Diese Interaktionen können online oder offline stattfinden und beeinflussen maßgeblich die Wahrnehmung und Erfahrung des Kunden.</p>
+                
+                <table class="touchpoints-table">
+                    <thead>
+                        <tr>
+                            <th>Phase</th>
+                            <th>Online-Touchpoints</th>
+                            <th>Offline-Touchpoints</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Awareness</td>
+                            <td>
+                                <ul>
+                                    <li>Suchmaschinenergebnisse</li>
+                                    <li>Social Media</li>
+                                    <li>Online-Werbung</li>
+                                    <li>Content Marketing</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Printanzeigen</li>
+                                    <li>Messen</li>
+                                    <li>TV-/Radiowerbung</li>
+                                    <li>Empfehlungen</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Consideration</td>
+                            <td>
+                                <ul>
+                                    <li>Webseite</li>
+                                    <li>Produktbewertungen</li>
+                                    <li>E-Mail-Marketing</li>
+                                    <li>Vergleichsportale</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Produktkataloge</li>
+                                    <li>Beratungsgespräche</li>
+                                    <li>Produktpräsentationen</li>
+                                    <li>Showrooms</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Purchase</td>
+                            <td>
+                                <ul>
+                                    <li>Online-Shop</li>
+                                    <li>Bestellbestätigung</li>
+                                    <li>Zahlungsprozess</li>
+                                    <li>Live-Chat-Support</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Point of Sale</li>
+                                    <li>Verkaufsgespräche</li>
+                                    <li>Vertragsunterzeichnung</li>
+                                    <li>Kassenerlebnis</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Service</td>
+                            <td>
+                                <ul>
+                                    <li>Versandbenachrichtigungen</li>
+                                    <li>FAQ-Bereich</li>
+                                    <li>E-Mail-Support</li>
+                                    <li>Selbsthilfe-Portale</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Lieferung</li>
+                                    <li>Produkt/Verpackung</li>
+                                    <li>Telefonischer Support</li>
+                                    <li>Service-Center</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Loyalty</td>
+                            <td>
+                                <ul>
+                                    <li>Kundenkonto</li>
+                                    <li>Newsletter</li>
+                                    <li>Social Media Engagement</li>
+                                    <li>Kundenbewertungen</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Kundenkarten</li>
+                                    <li>Events für Bestandskunden</li>
+                                    <li>Treueprämien</li>
+                                    <li>Persönliche Anschreiben</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="term-section">
+                <h3>Customer Journey Mapping</h3>
+                <p>Customer Journey Mapping ist eine Methode zur visuellen Darstellung der Customer Journey. Dabei werden alle Interaktionen, Emotionen und Erfahrungen eines Kunden an den verschiedenen Touchpoints dokumentiert und analysiert. Ein typisches Customer Journey Map enthält:</p>
+                
+                <ul>
+                    <li><strong>Personas</strong>: Detaillierte, fiktive Darstellungen typischer Kundenprofile</li>
+                    <li><strong>Phasen</strong>: Die verschiedenen Etappen der Kundenreise</li>
+                    <li><strong>Touchpoints</strong>: Alle Berührungspunkte zwischen Kunde und Unternehmen</li>
+                    <li><strong>Aktionen</strong>: Was der Kunde in jeder Phase tut</li>
+                    <li><strong>Emotionen</strong>: Wie sich der Kunde in jeder Phase fühlt</li>
+                    <li><strong>Schmerzpunkte</strong>: Probleme oder Hindernisse, die der Kunde erlebt</li>
+                    <li><strong>Chancen</strong>: Möglichkeiten zur Verbesserung des Kundenerlebnisses</li>
+                </ul>
+            </div>
+
+            <div class="benefits-section">
+                <h3>Vorteile des Customer Journey-Ansatzes</h3>
+                <ul>
+                    <li><strong>Kundenzentrierte Perspektive</strong>: Versetzt Unternehmen in die Lage, ihre Prozesse und Angebote aus Kundensicht zu betrachten</li>
+                    <li><strong>Identifikation von Lücken</strong>: Hilft, Schwachstellen und Verbesserungspotentiale im Kundenerlebnis zu erkennen</li>
+                    <li><strong>Abteilungsübergreifende Zusammenarbeit</strong>: Fördert die Kooperation verschiedener Unternehmensbereiche</li>
+                    <li><strong>Konsistentes Kundenerlebnis</strong>: Unterstützt die Schaffung einer einheitlichen Erfahrung über alle Kontaktpunkte hinweg</li>
+                    <li><strong>Gezielte Ressourcenallokation</strong>: Ermöglicht Investitionen in die wichtigsten Touchpoints</li>
+                    <li><strong>Personalisierung</strong>: Bildet die Grundlage für maßgeschneiderte Kundenansprache</li>
+                </ul>
+            </div>
+
+            <div class="logistics-application">
+                <h3>Anwendung in der Logistik und im Supply Chain Management</h3>
+                <p>Auch in der Logistik und im <a href="supply-chain-management.html">Supply Chain Management</a> ist die Customer Journey ein wichtiges Konzept:</p>
+                
+                <ul>
+                    <li><strong>Bestell- und Lieferprozesse</strong>: Optimierung der Bestellabwicklung, Versandverfolgung und Zustellung</li>
+                    <li><strong>Transparenz</strong>: Echtzeit-Tracking von Sendungen, proaktive Benachrichtigungen</li>
+                    <li><strong>Retourenmanagement</strong>: Vereinfachung von Rücksendungen und Umtausch</li>
+                    <li><strong>B2B-Beziehungen</strong>: Verbesserung der Kommunikation und Zusammenarbeit mit Geschäftskunden</li>
+                    <li><strong>Digitale Integration</strong>: Nahtlose Verbindung von Online-Bestellungen und physischer Lieferung</li>
+                    <li><strong>Last Mile Experience</strong>: Optimierung des letzten und oft entscheidenden Teils der Lieferkette</li>
+                </ul>
+                
+                <p>Durch eine detaillierte Analyse der B2B- oder B2C-Kundenreise können Logistikunternehmen ihre Prozesse kundenzentrierter gestalten und Wettbewerbsvorteile erzielen.</p>
+            </div>
+
+            <div class="term-section">
+                <h3>Technologien zur Unterstützung der Customer Journey</h3>
+                <p>Moderne Technologien helfen Unternehmen, die Customer Journey zu analysieren und zu optimieren:</p>
+                
+                <ul>
+                    <li><strong>Customer Relationship Management (CRM)</strong>: Zentrale Speicherung aller Kundeninteraktionen und -daten</li>
+                    <li><strong>Analytics-Tools</strong>: Erfassung und Auswertung des Kundenverhaltens online und offline</li>
+                    <li><strong>Marketing Automation</strong>: Automatisierte, personalisierte Kommunikation an verschiedenen Touchpoints</li>
+                    <li><strong>Customer Data Platforms</strong>: Zusammenführung von Kundendaten aus verschiedenen Quellen</li>
+                    <li><strong>Künstliche Intelligenz</strong>: Prognose von Kundenverhalten und individualisierte Ansprache</li>
+                    <li><strong><a href="api.html">APIs</a></strong>: Integration verschiedener Systeme für ein nahtloses Kundenerlebnis</li>
+                    <li><strong><a href="cloud-computing.html">Cloud-basierte Lösungen</a></strong>: Flexible Skalierung und Zugänglichkeit von Customer Journey-Daten</li>
+                </ul>
+            </div>
+
+            <div class="implementation-steps">
+                <h3>Schritte zur Implementierung eines Customer Journey-Ansatzes</h3>
+                <ol>
+                    <li><strong>Kundensegmentierung</strong>: Identifikation und Definition relevanter Kundenzielgruppen</li>
+                    <li><strong>Persona-Entwicklung</strong>: Erstellung detaillierter Kundenprofile mit Bedürfnissen und Zielen</li>
+                    <li><strong>Touchpoint-Analyse</strong>: Erfassung aller Berührungspunkte zwischen Kunde und Unternehmen</li>
+                    <li><strong>Journey Mapping</strong>: Visualisierung der Kundenreise mit allen relevanten Elementen</li>
+                    <li><strong>Erfahrungsanalyse</strong>: Bewertung der aktuellen Kundenerfahrung an jedem Touchpoint</li>
+                    <li><strong>Gap-Analyse</strong>: Identifikation von Verbesserungspotentialen und Schwachstellen</li>
+                    <li><strong>Maßnahmenplanung</strong>: Entwicklung konkreter Maßnahmen zur Optimierung</li>
+                    <li><strong>Implementierung</strong>: Umsetzung der geplanten Verbesserungen</li>
+                    <li><strong>Erfolgsmessung</strong>: Kontinuierliche Überwachung und Anpassung</li>
+                </ol>
+            </div>
+
+            <div class="metrics-section">
+                <h3>Kennzahlen zur Messung der Customer Journey</h3>
+                <p>Um den Erfolg von Customer Journey-Optimierungen zu messen, werden verschiedene KPIs herangezogen:</p>
+                
+                <ul>
+                    <li><strong>Net Promoter Score (NPS)</strong>: Misst die Weiterempfehlungsbereitschaft der Kunden</li>
+                    <li><strong>Customer Satisfaction Score (CSAT)</strong>: Erfasst die Zufriedenheit mit einzelnen Touchpoints</li>
+                    <li><strong>Customer Effort Score (CES)</strong>: Bewertet den Aufwand, den Kunden betreiben müssen</li>
+                    <li><strong>Conversion Rate</strong>: Prozentsatz der Besucher, die eine gewünschte Aktion durchführen</li>
+                    <li><strong>Absprungrate</strong>: Anteil der Besucher, die eine Webseite ohne Interaktion verlassen</li>
+                    <li><strong>Customer Lifetime Value (CLV)</strong>: Gesamtwert eines Kunden über die Dauer der Geschäftsbeziehung</li>
+                    <li><strong>Churn Rate</strong>: Rate, mit der Kunden ein Unternehmen verlassen</li>
+                </ul>
+            </div>
+
+            <div class="related-terms">
+                <h3>Verwandte Begriffe im Glossar</h3>
+                <ul>
+                    <li><a href="supply-chain-management.html">Supply Chain Management</a> - Optimierung der Lieferkette als Teil der B2B-Customer Journey</li>
+                    <li><a href="api.html">API</a> - Schnittstellen zur Integration verschiedener Touchpoints</li>
+                    <li><a href="cloud-computing.html">Cloud Computing</a> - Technologische Basis für Customer Journey Analytics</li>
+                </ul>
+            </div>
+
+            <div class="external-resources">
+                <h3>Weiterführende Ressourcen</h3>
+                <ul>
+                    <li><a href="https://www.mckinsey.com/business-functions/growth-marketing-and-sales/our-insights/the-value-of-getting-personalization-right-or-wrong-is-multiplying" target="_blank">McKinsey: The value of personalization</a></li>
+                    <li><a href="https://www.forrester.com/report/journey-mapping-best-practices" target="_blank">Forrester: Journey Mapping Best Practices</a></li>
+                    <li><a href="https://www.bvl.de/themen/kundenorientierung" target="_blank">BVL: Kundenorientierung in der Logistik</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="#" class="back-to-top">↑</a>
+
+        <footer>
+            <p>© 2025 Log7-Consult GmbH - Alle Rechte vorbehalten</p>
+            <p id="lastUpdated"></p>
+        </footer>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
